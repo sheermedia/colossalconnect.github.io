@@ -2098,10 +2098,9 @@ a.light:hover {
 	height: 28px;
 	margin-bottom: 10px;
 	padding-left: 4px;
-	
+	color: #000;
 	font-weight: 400;
 	font-size: 16px;
-	color: #fff;
 	border: 1px solid #ccc;
 }
 .contact-form textarea {
