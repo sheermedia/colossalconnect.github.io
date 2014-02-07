@@ -1716,7 +1716,8 @@ nav {
 .logo{
 	position:absolute;
 	top: 12%;
-	left: 40%;
+	left: 50%;
+	margin-left: -66px;
 }
 nav .menu-top{
 	height:10px; 
