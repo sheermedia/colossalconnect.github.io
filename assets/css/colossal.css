@@ -123,16 +123,29 @@ strong {
 small {
 	font-size: 80%
 }
+blockquote:before {
+	content: '“';
+	font-size: 100px;
+	margin-left: -47px;
+	margin-top: 14px;
+	float: left;
+	font-family: Arial, sans-serif;
+	color: #F1691C
+}
 blockquote, blockquote p {
 	font-size: 17px;
-	line-height: 24px;
+	line-height: 28px;
 	color: #777;
 	font-style: italic
 }
 blockquote {
 	margin: 0 0 20px;
-	padding: 9px 20px 0 19px;
-	border-left: 1px solid #ddd
+	padding: 15px 20px 0 19px;
+	/*border-left: 1px solid #ddd*/
+}
+blockquote + legend {
+	text-align: right;
+	width: 70%;
 }
 blockquote cite {
 	display: block;
@@ -192,15 +205,15 @@ ul ul li, ul ol li, ol ol li, ol ul li {
 	margin-bottom: 6px
 }
 li {
-	line-height: 18px;
+	line-height: 28px;
 	margin-bottom: 12px
 }
 ul.large li {
-	line-height: 21px
+	line-height: 28px
 }
 
 li p {
-	line-height: 21px
+	line-height: 28px
 }
 
 img.scale-with-grid {
@@ -1548,11 +1561,11 @@ span.lines {
 	border-bottom: 1px solid #f0f0f0;
 }
 h3 {
-	font-size: 22px;
-text-transform: uppercase;
-font-weight: bold;
-color: #287d7d;
-text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #287d7d;
+	text-align: center;
 }
 h3.white {
 	color: #fff
@@ -1573,11 +1586,10 @@ h5 {
 	color: #fff
 }
 p {
-	
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 27px;
-	color: #a5a3a2;
+	color: #808080; /*a5a3a2;*/
 }
 p.white {
 	color: #f9f9f9
@@ -2083,7 +2095,6 @@ a.light:hover {
 	float:left;
 }
 .contact-form p {
-	
 	font-size: 14px;
 	color: #fff;
 	text-transform: uppercase;
@@ -2327,16 +2338,18 @@ form {
   z-index: 250;
   background: url(../../images/grid1.png) scroll repeat 0 0 transparent;
 }
-.icons{
-	padding: 5px 90px;
+.icons {
+	padding: 0 90px 35px 90px;
 }
 .bxslider p{
 	text-align:justify;
 }
 #pricing p{
 	text-align:justify;
-	line-height:18px;
-	font-size:14px;
+	line-height: 26px;
+}
+#pricing h3 {
+	margin: 25px 0 10px 0
 }
 #headerplaceholder {
 	text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); /* offset-x offset-y blur-radius color */
