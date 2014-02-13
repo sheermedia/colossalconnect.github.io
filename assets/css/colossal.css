@@ -1549,12 +1549,11 @@ h2 {
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 100px;
-	
 	margin-bottom: 40px
 }
 
 h2.white {
-	color: #fff
+	color: #f0f0f0;
 }
 span.lines {
 	border-top: 1px solid #f0f0f0;
@@ -1752,14 +1751,12 @@ nav ul li:first-child {
 	/*border-left: 1px solid #e6e6e6*/
 }
 nav a {
-	
 	font-size: 14px;
 	color: #1b354c;
 	font-weight: 300;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 30px 0px 0px 0px;
-	
+	padding: 30px 0px 30px 0px;
 }
 /*nav a:visited {
 	color: #92c46d;
@@ -2134,12 +2131,10 @@ a.light:hover {
 	text-transform: uppercase;
 	text-decoration: none;
 	cursor: pointer;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	line-height: 0;
-	padding: 3px 4px 0 4px;
-	
 	width: 200px;
-	height: 30px
+	height: 40px
 }
 .contact-form .submit-button:hover {
 	color: #3a3a3a;
